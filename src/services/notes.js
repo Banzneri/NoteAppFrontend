@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'https://whispering-cliffs-52118.herokuapp.com/api/notes'
+const baseUrl = 'https://pasinpaskasovellus.herokuapp.com/api/notes'
 
 const getAll = () => {
     const req = axios.get(baseUrl)
